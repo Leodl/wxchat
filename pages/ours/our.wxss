@@ -1,0 +1,23 @@
+.our{
+    padding:0 20rpx 0 20rpx;
+    margin:0;
+}
+.our .tipdec{
+  padding-top:20rpx;
+  margin-bottom: 30rpx;
+}
+.our .icon{
+  padding-right:20rpx;
+  color: red;
+}
+.img image{
+  margin-right:20rpx;
+  width: 100%;
+}
+.our .textdec{
+  font-size: 15px;
+  color: #3c3c3c;
+}
+#myVideo{
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/book/book",
+    "pages/technician/technician",
+    "pages/technicain_detail/technicain_detail",
+    "pages/edit_addr/edit_addr",
+    "pages/user/user",
+    "pages/ours/our",
+    "pages/contact/contact"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#37383c",
+    "navigationBarTitleText": "扬州鑫同集团",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#333",
+    "selectedColor":"#d24a58",
+    "backgroundColor":"#f6f6f7",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "产品中心",
+      "iconPath":"imgs/project.png",
+      "selectedIconPath":"imgs/project_h.png"
+    }, {
+      "pagePath": "pages/technician/technician",
+      "text": "工程案例",
+      "iconPath":"imgs/gongcheng.png",
+      "selectedIconPath":"imgs/gongcheng_h.png"
+    }, {
+      "pagePath": "pages/ours/our",
+      "text": "关于我们",
+      "iconPath":"imgs/our.png",
+      "selectedIconPath":"imgs/our_h.png"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "联系我们",
+      "iconPath": "imgs/phone.png",
+      "selectedIconPath": "imgs/phone_h.png"
+    }
+    
+    ]
+  }
+}
