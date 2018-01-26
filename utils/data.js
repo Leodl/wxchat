@@ -189,7 +189,7 @@ function getIndexNavSectionData(){
 /**
  * 技师 数据
  * */ 
-function getSkilledData(){
+function getprocaseData(){
     var arr = [
                 {
                         company:"扬州鑫同集团",
@@ -198,6 +198,7 @@ function getSkilledData(){
                         // price:'¥500',
                         message:'南京江东北路定淮门隧道',
                         // distance:'100m'
+                        id:0
                     },
                     {
                         company:"扬州鑫同集团",
@@ -206,9 +207,37 @@ function getSkilledData(){
                         // price:'¥800',
                         message:'西藏林芝道路交通工程',
                         // distance:'200m'
+                        id:1
                     }     
             ]
     return arr
+}
+
+//工程案例详情
+function getprodetailData(){
+  var arr = [
+    {
+      id:0,
+      img:[
+        "http://www.yzsxt.com/upattach/2017830105110408.jpg",
+        "http://www.yzsxt.com/upattach/2017830105118504.jpg"
+      ],
+      title:"南京江东北路定淮门隧道",
+      info:"该工程由中交隧道工程局有限公司承建，我司提供情报板龙门架、监控立杆等钢构产品,公司已通过IS09001质量管理、IS014001环境管理、GB/T28001职业健康安全管理、CCC和CQC等管理体系认证。已取得道路照明工程二级、交通信号灯、信号控制机等多项资质证书，并获得“AAA级资信企业”、“重合同守信用企业”、“江苏省名牌产品”等荣誉称号。"
+    },
+    {
+      id:1,
+      img:[
+        "http://www.yzsxt.com/upattach/2017830112544895.jpg",
+        "http://www.yzsxt.com/upattach/2017830112554972.jpg",
+        "http://www.yzsxt.com/upattach/2017830112559122.jpg"
+      ],
+      title:"西藏林芝道路交通工程",
+      info:"该工程由中交隧道工程局有限公司承建，我司提供情报板龙门架、监控立杆等钢构产品,公司已通过IS09001质量管理、IS014001环境管理、GB/T28001职业健康安全管理、CCC和CQC等管理体系认证。已取得道路照明工程二级、交通信号灯、信号控制机等多项资质证书，并获得“AAA级资信企业”、“重合同守信用企业”、“江苏省名牌产品”等荣誉称号。"
+    }
+   
+  ]
+  return arr;
 }
 
 /**
@@ -279,6 +308,8 @@ function userData(){
             }
     return arr
 }
+
+
 /**
  * 省
  * */ 
@@ -309,7 +340,8 @@ module.exports = {
   getIndexNavData : getIndexNavData,
   getIndexNavSectionData : getIndexNavSectionData,
   getPickerData : getPickerData,
-  getSkilledData :getSkilledData,
+  getSkilledData: getprocaseData,
+  getprodetailData: getprodetailData,
   userData : userData,
   provinceData : provinceData,
   cityData : cityData,

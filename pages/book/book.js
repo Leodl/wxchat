@@ -6,13 +6,15 @@ Page( {
   data: {
     addrArray:util.replacePhone(mydata.userData().addrs,true),
     addrIndex:0,
-    date : '2016-10-14',
+    // date: "2018-01-26",
     time : '12:00',
     bookToastHidden:true
   },
   onLoad: function (options) {
+    console.log(util.formatTime(new Date()))
     this.setData({
-      artype:options.artype
+      artype:options.artype,
+      date: util.formatTime(new Date())
     })   
   },
   // 地址选择

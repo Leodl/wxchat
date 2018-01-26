@@ -1,3 +1,4 @@
+/* pages/procase/procase.wxss */
 /**index.wxss**/
 .container{
     padding:0;

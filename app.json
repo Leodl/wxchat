@@ -3,8 +3,8 @@
     "pages/index/index",
     "pages/detail/detail",
     "pages/book/book",
-    "pages/technician/technician",
-    "pages/technicain_detail/technicain_detail",
+    "pages/procase/procase",
+    "pages/prodetail/prodetail",
     "pages/edit_addr/edit_addr",
     "pages/user/user",
     "pages/ours/our",
@@ -27,7 +27,7 @@
       "iconPath":"imgs/project.png",
       "selectedIconPath":"imgs/project_h.png"
     }, {
-      "pagePath": "pages/technician/technician",
+      "pagePath": "pages/procase/procase",
       "text": "工程案例",
       "iconPath":"imgs/gongcheng.png",
       "selectedIconPath":"imgs/gongcheng_h.png"

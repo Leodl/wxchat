@@ -1,0 +1,28 @@
+prodetail{
+  padding: 0px;
+  margin: 0px;
+}
+.swiper{
+   width:100%;
+  margin:0rpx;
+}
+.swiper image{
+    display: inline;
+}
+.main{
+    padding:0 20rpx 0 20rpx;
+    margin:0;
+}
+.prodetail .tipdec{
+  padding-top:20rpx;
+  margin-bottom: 30rpx;
+}
+.prodetail .icon{
+  padding-right:20rpx;
+  color: red;
+}
+.main .dec text{
+  font-size: 15px;
+  line-height: 26px;
+  color: #3c3c3c;
+}

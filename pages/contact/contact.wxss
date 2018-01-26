@@ -1,0 +1,15 @@
+.img image{
+  width:100%;
+  display: block;
+  height: 100px;
+}
+.kefu button{
+  margin-top: 20px;
+  background:#d24a58;
+  width: 80%;
+font-size:32rpx;
+color:#fff;
+border-radius:0rpx;
+margin: 20 auto;
+
+}

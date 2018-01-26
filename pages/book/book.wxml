@@ -1,10 +1,10 @@
 <view class="container">
 
     <view class="ar_coverpath">
-        <image src="../../images/banner_02.png" mode="aspectFill"></image>
+        <image src="../../imgs/banner_02.jpg" mode="aspectFill"></image>
     </view>
-
-    <view class="ar_picker">
+ 
+    <!-- <view class="ar_picker">
         <view class="ar_picker_wrap">
         <picker bindchange="bindAddrPickerChange" value="{{addrIndex}}" range="{{addrArray}}">
             <view>
@@ -12,10 +12,10 @@
             </view>
         </picker>
         </view>
-    </view>
+    </view>  -->
 
     <view class="ar_cont">
-        <text class="ar_cont_h1">服务时间</text>
+        <text class="ar_cont_h1">预约时间</text>
         <view class="ar_date_time">
             <view class="ar_date">
                 <image src="../../images/date.png"></image>
@@ -35,11 +35,13 @@
             </view>
         </view>
 
-        <text class="ar_cont_h1">留言信息</text>
+        <text class="ar_cont_h1">联系方式</text>
 
-        <input type="text" placeholder="输入信息" class="input_msg" placeholder-style="font-family:'微软雅黑'"/>
+        <input type="text" placeholder="电话" class="input_msg" placeholder-style="font-family:'微软雅黑'"/>
+         <input type="text" placeholder="微信" class="input_msg" placeholder-style="font-family:'微软雅黑'"/>
+          <input type="text" placeholder="QQ" class="input_msg" placeholder-style="font-family:'微软雅黑'"/>
 
-        <button class="ar_book" bindtap="bindToastTap">确认预定</button>
+        <button class="ar_book" bindtap="bindToastTap">确认预约</button>
         <toast hidden="{{bookToastHidden}}"  bindchange="hideToast">
         预定成功
         </toast>

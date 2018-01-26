@@ -1,1 +1,13 @@
+<view class='contact'>
+<view class='img'>
+<image src="http://www.yzsxt.com/images/contact/link_r1_c1.jpg"></image>
+<image src='http://www.yzsxt.com/images/contact/link_r2_c1.jpg'></image>
+<image src="http://www.yzsxt.com/images/contact/link_r3_c1.jpg"></image>
+<image src="http://www.yzsxt.com/images/contact/link_r4_c1.jpg" style='height:80px'></image>
+<image src="http://www.yzsxt.com/images/contact/link_r5_c1.jpg" style='height:30px'></image>
+</view>
+</view>
+
+<view class='kefu'>
 <button open-type='contact'>联系客服</button>
+</view>

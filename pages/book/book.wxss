@@ -9,6 +9,7 @@
 }
 .ar_coverpath image{
     width:100%;
+    display: inline;
 }
 .ar_picker{
     width:100%;
@@ -40,6 +41,11 @@
     line-height: 64rpx;
     color:#000;
 }
+.input_msg{
+  height: 30px;
+  margin-bottom: 10px;
+}
+
 .ar_date_time{
     width:100%;
     display: flex;

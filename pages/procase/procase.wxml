@@ -26,7 +26,7 @@
   <view class="nav_section">
     <view wx:if="{{list}}">
         <block wx:for="{{list}}" wx:key="item.id">
-            <view class="nav_section_items" bindtap="navigateDetail" data-aid="{{item.id}}">
+            <view class="nav_section_items" bindtap="navigateDetail" data-proid="{{item.id}}">
                 <!--image-->
                 <view class="section_image" >
                 <block wx:if="{{item.avatar}}">
