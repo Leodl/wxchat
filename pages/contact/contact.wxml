@@ -6,8 +6,18 @@
 <image src="http://www.yzsxt.com/images/contact/link_r4_c1.jpg" style='height:80px'></image>
 <image src="http://www.yzsxt.com/images/contact/link_r5_c1.jpg" style='height:30px'></image>
 </view>
+
+<view class='location'>
+<map id="map" bindtap="click" longitude="119.330742" latitude="32.698366" scale="14"  markers="{{markers}}" bindmarkertap="markertap"  bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
 </view>
 
 <view class='kefu'>
 <button open-type='contact'>联系客服</button>
 </view>
+
+
+
+</view>
+
+
+

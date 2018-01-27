@@ -19,7 +19,7 @@
         <view class="ar_date_time">
             <view class="ar_date">
                 <image src="../../images/date.png"></image>
-                <picker mode="date" placeholder="选择日期" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange" >
+                <picker mode="date" placeholder="选择日期" value="{{date}}" start="2017-01-01" end="2030-12-30" bindchange="bindDateChange" >
                     <view>
                         {{date}}
                     </view>
